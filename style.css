@@ -1,0 +1,99 @@
+body {
+  font-family: 'Cabin', sans-serif;
+  background-color: #EAEAEA;
+  color: #9F7E69;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    max-width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+.btn-classe {
+  background-color: #65949D;
+    font-size: 15px;
+    color: white;
+    padding: 7px;
+}
+/*.btn-classe:hover {
+  font-size: 15px;
+}*/
+
+.card{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  font-size: 30px;
+}
+
+#poudlard {
+  font-size: 25px;
+}
+
+#poudlard:hover {
+  font-size: 35px;
+}
+
+p {
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+  color: #5E5C6C;
+}
+
+#profil-picture {
+  border-radius: 50%;
+  width: 150px;
+}
+.card {
+  background-color: #FFFFFF;
+}
+
+.film {
+  text-align: left;
+  width: 60px;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  color: #0B5563;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+  color: #5299D3;
+}
+
+a {
+  font-family: 'Crimson Text', serif;
+  color: #9F7E69;
+  text-decoration: none;
+  line-height: 10px;
+  font-size: 45px;
+  padding: 15px;
+}
+.links a:hover {
+  font-size: 60px;
+}
